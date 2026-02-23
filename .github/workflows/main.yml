@@ -63,7 +63,7 @@ jobs:
           export KBUILD_BUILD_HOST=sherry
 
           mkdir -p out
-          make O=out vince-perf_defconfig
+          make O=out vince_defconfig
           make -j$(nproc --all) O=out \
 
       - name: Clone AnyKernel3
