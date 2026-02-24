@@ -18,7 +18,6 @@
 &clock_gcc_gfx {
 	qcom,gfxfreq-corner =
 		 <         0   0 >,
-		 < 560000000   6 >,  /* Nom Plus  */
 		 < 650000000   7 >,  /* Turbo     */
 		 < 725000000   7 >;  /* Turbo     */
 };
